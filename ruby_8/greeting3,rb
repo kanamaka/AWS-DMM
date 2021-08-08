@@ -1,0 +1,12 @@
+戻り
+戻り値とは、メソッドから返ってくる値のこと
+
+def say_hello(name)
+  return "#{name}, hello!" # return文を追加
+end
+
+result = say_hello("taro")
+puts "私は「#{result}」と挨拶した。"
+
+returnで返ってきた値を変数resultに代入して使用
+returnで実行されると処理はリターンで終了
